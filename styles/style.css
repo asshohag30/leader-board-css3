@@ -80,3 +80,35 @@ top blog styles
    font-size: 16px;
    color: #9932ff;
 }
+
+/*----------------
+ courses styles
+ ------------- */
+ .courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+ }
+ .course .course-banner img{
+    width: 224px;
+    height: 104px;
+ }
+ .course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .fa-star{
+    font-size: 12px;
+ }
+ .fa-star.filled{
+    color: gold;
+ }
+ .fa-star.empty{
+    color: #909090;
+ }
+ .course-duration{
+    background-color: rgb(251, 88, 88);
+    border-radius: 10px;
+ }
+
