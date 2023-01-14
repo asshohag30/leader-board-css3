@@ -111,4 +111,16 @@ top blog styles
     background-color: rgb(251, 88, 88);
     border-radius: 10px;
  }
-
+/* media queries */
+/* mobile devices */
+@media only screen and(max-width:688px) {
+    .container{
+        width: 100%;
+    }
+}
+@media only screen and(min-width:992px) {
+    .container{
+           width: 100%;
+    }
+    
+}
